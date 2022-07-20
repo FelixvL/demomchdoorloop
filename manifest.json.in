@@ -1,0 +1,15 @@
+{
+    "name": "hellomch.terence",
+    "description": "Hello MCH",
+    "architecture": "@CLICK_ARCH@",
+    "title": "hellomch",
+    "hooks": {
+        "hellomch": {
+            "apparmor": "hellomch.apparmor",
+            "desktop":  "hellomch.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Felix <hoi@daar.nl>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
