@@ -85,8 +85,8 @@ MainView {
             onClicked: {
                 console.log("dit is javascript");
                 labelone.text = textfieldone.text
-                shoppinglistModel.append({"item":textfieldone.text})
-                //addItem()
+                shoppinglistModel.append({"name":textfieldone.text})
+                addItem(textfieldone.text, false)
             }
         }
 
@@ -105,7 +105,7 @@ MainView {
                 width: parent.width
                 height: units.gu(3)
                 Text {
-                    text: item
+                    text: name
                     color : UbuntuColors.orange
                    
                 }
